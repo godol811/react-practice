@@ -1,0 +1,26 @@
+import {Input} from "../../theme/daisyui";
+
+export default function Size() {
+    return (
+        <section className={`mt-4`}>
+            <div className={`flex p-4 mt-4 justify-evenly`}>
+                <div>
+                    <label className={`label`}>input-lg</label>
+                    <Input className={`input-primary input-lg`} />
+                </div>
+                <div>
+                    <label className={`label`}>input-md</label>
+                    <Input className={`input-secondary input-md`} />
+                </div>
+                <div>
+                    <label className={`label`}>input-sn</label>
+                    <Input className={`input-accent input-sm`} />
+                </div>
+                <div>
+                    <label className={`label`}>input-xs</label>
+                    <Input className={`input-info input-xs`} />
+                </div>
+            </div>
+        </section>
+    )
+}
